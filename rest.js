@@ -165,7 +165,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/12', {
     })
     .then((json) => {
       console.log('Response JSON:', json);
-      renderPost(json);
+      renderPost("Item successfully deleted!");
     })
     .catch((error) => {
       console.error('Error:', error);
